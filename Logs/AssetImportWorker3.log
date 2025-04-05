@@ -1,0 +1,546 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 15578 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/TechDesignTestProject
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63469
+Successfully changed project path to: D:/TechDesignTestProject
+D:/TechDesignTestProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18320] Host "[IP] 10.144.223.128 [Port] 0 [Flags] 2 [Guid] 3072314397 [EditorId] 3072314397 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8TLTS17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18320] Host "[IP] 10.144.223.128 [Port] 0 [Flags] 2 [Guid] 3072314397 [EditorId] 3072314397 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8TLTS17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 14.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path D:/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TechDesignTestProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6626
+Initialize mono
+Mono path[0] = 'D:/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003880 seconds.
+- Loaded All Assemblies, in  0.256 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.211 seconds
+Domain Reload Profiling: 467ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (167ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 978ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (96ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 113 unused Assets / (3.8 MB). Loaded Objects now: 4809.
+Memory consumption went from 169.3 MB to 165.5 MB.
+Total: 4.584800 ms (FindLiveObjects: 0.349600 ms CreateObjectMapping: 0.166500 ms MarkObjects: 2.663700 ms  DeleteObjects: 1.404100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FFGrid.cs: 601d7527c4b63a68a901f7e7388aa0d2 -> ef7a55246e74655d4c3b75d06d6a03f5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PhysicsConstraintData.cs: 9d7d92fb5a61c43b79edbaf99cb0ddaf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PhysicsConstraint.cs: d4bc2c5e30ef3b9f16c9a6f9685c09fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/copDemoControl.cs: a623a6c40955290aae436f75a23e796b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/jadDemoControl.cs: 0bf1326e25680db93f9e9b08efc7b895 -> 
+  custom:scripting/monoscript/fileName/ViewUnit.cs: 563ce7303cd31bdab30eaffc3a9bbedc -> 424c6013173d0285466d11aeca8d283f
+  custom:scripting/monoscript/fileName/ViewScene.cs: ea1ad4c2c4b0d48e139c83dd16f3332a -> 7d4f20b6cf082128629b6565b1d5c14d
+  custom:scripting/monoscript/fileName/RenderExistingMeshGraphic.cs: 559f98d0ae8b84cf5fff4b645f837dd8 -> 
+  custom:scripting/monoscript/fileName/ObjectSwitcherDEMO.cs: 5032c0f54d26b4519816eff5599a653e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4049.153611 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/mouth_at.png
+  artifactKey: Guid(bd0146006f0f7354dabce467232f8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/mouth_at.png using Guid(bd0146006f0f7354dabce467232f8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c2f96b3ae1ab480f20404f42bc0833') in 0.132389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_04.png
+  artifactKey: Guid(21b16dad1eb56fb4c93450828a63df01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_04.png using Guid(21b16dad1eb56fb4c93450828a63df01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86818d9ef1040bb0388f87f284d3db4') in 0.046789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_07.png
+  artifactKey: Guid(a199c49ce4904ec42b1bafe58bd60052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_07.png using Guid(a199c49ce4904ec42b1bafe58bd60052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d28034623d68d24e761807a80718f03') in 0.025400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.447992 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_13.png
+  artifactKey: Guid(d411c71486d1e8246b40c17c46ee93c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_13.png using Guid(d411c71486d1e8246b40c17c46ee93c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d2055142d858d1d5374e7a7629e778') in 0.311606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_01.png
+  artifactKey: Guid(89f7e3d102370504cbe3d8f7d4bf094b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_01.png using Guid(89f7e3d102370504cbe3d8f7d4bf094b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa89287cd4334e16e0ef55fa5fe690d') in 0.045130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_20.png
+  artifactKey: Guid(0a2b744e9ea14494db128d8f055d1728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_20.png using Guid(0a2b744e9ea14494db128d8f055d1728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068e7274cfeddeefc1140ed2e685d1b5') in 0.065189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/rikochet_0006.png
+  artifactKey: Guid(bf57fceefe82ffe4f8ff8d3e5cc072c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/rikochet_0006.png using Guid(bf57fceefe82ffe4f8ff8d3e5cc072c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90058e4a215305d4f1bf323c5c203126') in 0.061328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_21.png
+  artifactKey: Guid(8c5ca576fd7d8294495b96d2b4aaa24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/parti_21.png using Guid(8c5ca576fd7d8294495b96d2b4aaa24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596483b4e650e60130a20636a2969258') in 0.012562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/rikochet_0004.png
+  artifactKey: Guid(97c51483d170c5242bd845459112f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/rikochet_0004.png using Guid(97c51483d170c5242bd845459112f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dc72dd1800add0bb083a9aefb9d6d9') in 0.046748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.587579 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_09.png
+  artifactKey: Guid(f33a515ac29bc304e8d07d9b83b14aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_09.png using Guid(f33a515ac29bc304e8d07d9b83b14aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea7eafd2ca0dfd6aa7a79456969725') in 0.012460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_15.png
+  artifactKey: Guid(5e401705f3f40604cb70c668ad9c27f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_15.png using Guid(5e401705f3f40604cb70c668ad9c27f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4295f931f11dbf21736fbc497c8be883') in 0.005994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_16.png
+  artifactKey: Guid(4f0f36f9343cdbc45ba6b0b73ca69860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/smoke_2_16.png using Guid(4f0f36f9343cdbc45ba6b0b73ca69860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4973fcb5290f951d1944b0f3907f22a0') in 0.046058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.548191 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/Export/TernerDe_SkeletonData.asset
+  artifactKey: Guid(9d14b672e7f3992419e457a16a47bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/Export/TernerDe_SkeletonData.asset using Guid(9d14b672e7f3992419e457a16a47bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Problematic material setup at Spine GameObject (TernerDe): 
+Warning: Premultiply-alpha atlas textures not supported in Linear color space!You can use a straight alpha texture with 'PMA Vertex Color' by choosing blend mode 'PMA Vertex, Straight Texture'.
+
+If you have a PMA Texture, please
+a) re-export atlas as straight alpha texture with 'premultiply alpha' unchecked
+   (if you have already done this, please set the 'Straight Alpha Texture' Material parameter to 'true') or
+b) switch to Gamma color space via
+Project Settings - Player - Other Settings - Color Space.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Debug:LogWarningFormat (UnityEngine.Object,string,object[])
+Spine.Unity.SkeletonRenderer:Initialize (bool,bool) (at Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs:439)
+Spine.Unity.SkeletonAnimation:Initialize (bool,bool) (at Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs:188)
+Spine.Unity.Editor.EditorInstantiation:InstantiateSkeletonAnimation (Spine.Unity.SkeletonDataAsset,Spine.Skin,bool,bool) (at Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs:1348)
+Spine.Unity.Editor.EditorInstantiation:InstantiateSkeletonAnimation (Spine.Unity.SkeletonDataAsset,string,bool,bool) (at Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs:1318)
+Spine.Unity.Editor.SkeletonInspectorPreview:Initialize (System.Action,Spine.Unity.SkeletonDataAsset,string) (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:869)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:150)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs Line: 439)
+
+ -> (artifact id: 'afc10bb43c037812ac659f43e591398d') in 0.244252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.379 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1268ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (3.8 MB). Loaded Objects now: 4827.
+Memory consumption went from 168.6 MB to 164.8 MB.
+Total: 5.912100 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.291700 ms MarkObjects: 3.430800 ms  DeleteObjects: 1.745000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FFGrid.cs: 601d7527c4b63a68a901f7e7388aa0d2 -> ef7a55246e74655d4c3b75d06d6a03f5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PhysicsConstraintData.cs: 9d7d92fb5a61c43b79edbaf99cb0ddaf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PhysicsConstraint.cs: d4bc2c5e30ef3b9f16c9a6f9685c09fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/copDemoControl.cs: a623a6c40955290aae436f75a23e796b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/jadDemoControl.cs: 0bf1326e25680db93f9e9b08efc7b895 -> 
+  custom:scripting/monoscript/fileName/ViewUnit.cs: 563ce7303cd31bdab30eaffc3a9bbedc -> 424c6013173d0285466d11aeca8d283f
+  custom:scripting/monoscript/fileName/ViewScene.cs: ea1ad4c2c4b0d48e139c83dd16f3332a -> 7d4f20b6cf082128629b6565b1d5c14d
+  custom:scripting/monoscript/fileName/RenderExistingMeshGraphic.cs: 559f98d0ae8b84cf5fff4b645f837dd8 -> 
+  custom:scripting/monoscript/fileName/ObjectSwitcherDEMO.cs: 5032c0f54d26b4519816eff5599a653e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248.538013 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/arm_r.png
+  artifactKey: Guid(32013df1ad5166e43b57508d999b690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/arm_r.png using Guid(32013df1ad5166e43b57508d999b690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fe136df506c903f2f8dd774d2d39cb') in 0.138377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/shield.png
+  artifactKey: Guid(3d2655cdb224d2e43b41851b42720bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/shield.png using Guid(3d2655cdb224d2e43b41851b42720bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89ad263744144c86aa177b29e57930c') in 0.015403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/wepon_l1.png
+  artifactKey: Guid(c34ffb2a500092f4ea8f398fbf36e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/wepon_l1.png using Guid(c34ffb2a500092f4ea8f398fbf36e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1b6e42410d9c228022895b721a0378') in 0.014928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/leg_l.png
+  artifactKey: Guid(8c1bd9aa79239684795f1633c639d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e1/leg_l.png using Guid(8c1bd9aa79239684795f1633c639d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c0ecc9ec47934ef5bc1a0b99216e19') in 0.048780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.864619 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e2/belt.png
+  artifactKey: Guid(4b04c45b0ab858746af6d948f5a61c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e2/belt.png using Guid(4b04c45b0ab858746af6d948f5a61c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca0a937aa720e84771d7b03f984f6e1') in 0.012195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e2/wepon_l1.png
+  artifactKey: Guid(c0e0bd2b44fc3b4428909cda326942e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e2/wepon_l1.png using Guid(c0e0bd2b44fc3b4428909cda326942e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaf355a824d06353f27f270cada110b') in 0.035858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e2/leg_l.png
+  artifactKey: Guid(88614693a7c0d2048b01c4c566814d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e2/leg_l.png using Guid(88614693a7c0d2048b01c4c566814d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893042ee79d5f6b5cc7fffe90c773bd1') in 0.027383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.175872 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e3/arm_r.png
+  artifactKey: Guid(380c8f400ee378b4d82420c6e6bfe632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e3/arm_r.png using Guid(380c8f400ee378b4d82420c6e6bfe632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03631e84bac79663788c50a78bbba77a') in 0.013101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e3/leg_l.png
+  artifactKey: Guid(8989d63c3fe9b084fb1bc2fc5362ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e3/leg_l.png using Guid(8989d63c3fe9b084fb1bc2fc5362ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de5305d23c17298d056ff9c17a7775f') in 0.009313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e3/belt.png
+  artifactKey: Guid(49e1e9263302e3f458954ab112524920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drawinguy/FreeSet/02 Spine/TunnerDe/ImagesTurner/e3/belt.png using Guid(49e1e9263302e3f458954ab112524920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f27fe4edae9570bf5b5958535071ac3') in 0.051041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.398 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (3.8 MB). Loaded Objects now: 4834.
+Memory consumption went from 168.4 MB to 164.6 MB.
+Total: 4.723300 ms (FindLiveObjects: 0.336400 ms CreateObjectMapping: 0.112000 ms MarkObjects: 2.574400 ms  DeleteObjects: 1.700000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FFGrid.cs: f2506dc88e54f487f7a9c5bc87d308f8 -> 337bec493e9bdcfef274be7a369ad15f
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PhysicsConstraintData.cs: 9d7d92fb5a61c43b79edbaf99cb0ddaf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PhysicsConstraint.cs: d4bc2c5e30ef3b9f16c9a6f9685c09fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/copDemoControl.cs: a623a6c40955290aae436f75a23e796b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/jadDemoControl.cs: 0bf1326e25680db93f9e9b08efc7b895 -> 
+  custom:scripting/monoscript/fileName/ViewUnit.cs: c9be7e18431a9d21f25513c2c0cbbffb -> cfd36ed20823aa6b4d5acda0d52178f8
+  custom:scripting/monoscript/fileName/ViewScene.cs: 691bc5dc7769ad27d18b1a7b8f738080 -> 9800736d5f5b15ca3e1dcecd3e106db8
+  custom:scripting/monoscript/fileName/RenderExistingMeshGraphic.cs: 559f98d0ae8b84cf5fff4b645f837dd8 -> 
+  custom:scripting/monoscript/fileName/ObjectSwitcherDEMO.cs: 5032c0f54d26b4519816eff5599a653e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

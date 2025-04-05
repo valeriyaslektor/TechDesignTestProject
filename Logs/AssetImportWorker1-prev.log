@@ -1,0 +1,1404 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 15578 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/TechDesignTestProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51962
+Successfully changed project path to: D:/TechDesignTestProject
+D:/TechDesignTestProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2540] Host "[IP] 10.144.223.128 [Port] 0 [Flags] 2 [Guid] 3128817914 [EditorId] 3128817914 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8TLTS17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2540] Host "[IP] 10.144.223.128 [Port] 0 [Flags] 2 [Guid] 3128817914 [EditorId] 3128817914 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8TLTS17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 1622.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path D:/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TechDesignTestProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6626
+Initialize mono
+Mono path[0] = 'D:/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.167957 seconds.
+- Loaded All Assemblies, in  6.600 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.338 seconds
+Domain Reload Profiling: 6937ms
+	BeginReloadAssembly (5034ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (434ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (223ms)
+	LoadAllAssembliesAndSetupDomain (898ms)
+		LoadAssemblies (5033ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (895ms)
+			TypeCache.Refresh (894ms)
+				TypeCache.ScanAssembly (625ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.214 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 7748ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (7015ms)
+		LoadAssemblies (6715ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (375ms)
+			TypeCache.Refresh (351ms)
+				TypeCache.ScanAssembly (288ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (2.0 MB). Loaded Objects now: 4837.
+Memory consumption went from 171.1 MB to 169.1 MB.
+Total: 3.899700 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.119700 ms MarkObjects: 2.498000 ms  DeleteObjects: 0.943500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 982.431970 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(cb18b25cb28ff6341827455f27ff4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(cb18b25cb28ff6341827455f27ff4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4b0a26489981770d61b14207cf30a4') in 0.052878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(60dbff536fdc6974cbeb7804fa97125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(60dbff536fdc6974cbeb7804fa97125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c3cdff5405aaf01447e47cd879ecbf') in 0.181316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SpineAnimations/foxy_Atlas.asset
+  artifactKey: Guid(14ac0f0d4dd84ca4b854edf714dda0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Atlas.asset using Guid(14ac0f0d4dd84ca4b854edf714dda0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7640c677e01bfd18788f92225c6630a9') in 0.001571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 67.341367 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(60dbff536fdc6974cbeb7804fa97125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(60dbff536fdc6974cbeb7804fa97125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d91d66821e01b9ede74570e2c94562') in 0.063320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1323ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (1.9 MB). Loaded Objects now: 4885.
+Memory consumption went from 164.4 MB to 162.5 MB.
+Total: 4.194300 ms (FindLiveObjects: 0.324500 ms CreateObjectMapping: 0.185500 ms MarkObjects: 2.692500 ms  DeleteObjects: 0.990900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.789499 seconds.
+  path: Assets/SpineAnimations/textures/character_texture.png
+  artifactKey: Guid(cb18b25cb28ff6341827455f27ff4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/textures/character_texture.png using Guid(cb18b25cb28ff6341827455f27ff4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a0e3ce1589975126562de9404bb992') in 0.064591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.607906 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e41c5efab4a7f103fa0ed677410204') in 0.169155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.547298 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/celestial-circus/celestial-circus-pma_Material.mat
+  artifactKey: Guid(870f657376183b9489a1fe7ccbdacaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/celestial-circus/celestial-circus-pma_Material.mat using Guid(870f657376183b9489a1fe7ccbdacaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127915d00da86730013ce7145160a596') in 0.113999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/FootSoldier/Equipment/Equipment_Material.mat
+  artifactKey: Guid(e6e388faa521c96449984cfa4b60d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/FootSoldier/Equipment/Equipment_Material.mat using Guid(e6e388faa521c96449984cfa4b60d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27048493f2297fcb9856481e9b7deb74') in 0.115821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/Spineunitygirl/Doi_Material.mat
+  artifactKey: Guid(2745674eb28031e499ac70ef825b153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/Spineunitygirl/Doi_Material.mat using Guid(2745674eb28031e499ac70ef825b153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7786ffd0b7f62bc4e70b20404b157833') in 0.028955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/cloud-pot/cloud-pot-pma_Material.mat
+  artifactKey: Guid(2bbfceb90d2246d44a79b471b9e137a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/cloud-pot/cloud-pot-pma_Material.mat using Guid(2bbfceb90d2246d44a79b471b9e137a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607f594b98403aebd54eb458333c9628') in 0.082809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.556184 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/Gauge/Gauge_Material.mat
+  artifactKey: Guid(9ab9bdbda020b3e46b5a3b0558ef591d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/Gauge/Gauge_Material.mat using Guid(9ab9bdbda020b3e46b5a3b0558ef591d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9b1c3f77dec6dfe30989b384e4711') in 0.054908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c776754882ed2d0f63a8ae6934eb29') in 0.202148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/Hero/hero-pro_MaterialOutlineOnly.mat
+  artifactKey: Guid(aadb1a26bea9b8d4381c38e65e64c192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/Hero/hero-pro_MaterialOutlineOnly.mat using Guid(aadb1a26bea9b8d4381c38e65e64c192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c37d2966295c86427fa987ad4a1d0c0') in 0.166071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Spine Examples/Scripts/Sample Components/SkeletonRenderTexture/RenderQuadGraphicMaterial.mat
+  artifactKey: Guid(afeb0ae2ea2cda94796515bf8d1b3cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Scripts/Sample Components/SkeletonRenderTexture/RenderQuadGraphicMaterial.mat using Guid(afeb0ae2ea2cda94796515bf8d1b3cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47415803bb9ec83d58bd7d35b7464457') in 0.136533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_Material.mat
+  artifactKey: Guid(3d645292a7b9c7547bf7b14caa569410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_Material.mat using Guid(3d645292a7b9c7547bf7b14caa569410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe771581c2625627a610e8bb2016fa3e') in 0.032134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cdeeb315057371e87178a107a15c7f') in 0.228735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/mix-and-match/mix-and-match-pma_Material.mat
+  artifactKey: Guid(f68af5332bca5ef49a0bb6a25be1a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/mix-and-match/mix-and-match-pma_Material.mat using Guid(f68af5332bca5ef49a0bb6a25be1a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bf5e999740380e77414e2b64f6f7db') in 0.021063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_MaterialTint.mat
+  artifactKey: Guid(63cb49ec035f5a8478d2597e35875418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_MaterialTint.mat using Guid(63cb49ec035f5a8478d2597e35875418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027fa6543fbb86525c829c30bc734899') in 0.018160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/Raptor/raptor_Material.mat
+  artifactKey: Guid(4e2feebfcaa26a54ab19f1ff3e0eae35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/Raptor/raptor_Material.mat using Guid(4e2feebfcaa26a54ab19f1ff3e0eae35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66454953faca82758ad20d5ab7a4ce9') in 0.040034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33f374a557e5b14626aace8df20a33a') in 0.133743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/Hero/hero-pro_MaterialOutline.mat
+  artifactKey: Guid(fd9012d511e32e04c84b87ea9276448d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/Hero/hero-pro_MaterialOutline.mat using Guid(fd9012d511e32e04c84b87ea9276448d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0a111133493831b52643d8bf01519e') in 0.051300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.028356 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat
+  artifactKey: Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat using Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2134a5022b084bc1d90b5f44213fa7b7') in 0.064788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefaultGrayscale-CanvasGroup.mat
+  artifactKey: Guid(60a164b8b81e803449b4182f9d744776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefaultGrayscale-CanvasGroup.mat using Guid(60a164b8b81e803449b4182f9d744776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45ddabe0445bfe39cb0263057e36ea0') in 0.005536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicFill.mat
+  artifactKey: Guid(c4cd84769cae11444b3d759bea3d1644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicFill.mat using Guid(c4cd84769cae11444b3d759bea3d1644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1657dfaf49e8983fd8b88570f1486a41') in 0.045703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/sack/sack-pma_Material.mat
+  artifactKey: Guid(31fdf99bddb097348b5d1c4fd7166630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/sack/sack-pma_Material.mat using Guid(31fdf99bddb097348b5d1c4fd7166630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45678d2f95aa2bc1959e6aa5ec88582a') in 0.058818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicAdditive.mat
+  artifactKey: Guid(2e8245019faeb8c43b75f9ca3ac8ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicAdditive.mat using Guid(2e8245019faeb8c43b75f9ca3ac8ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b251658582c069f0b3e908ed4c3ef48a') in 0.023505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicFill-Straight.mat
+  artifactKey: Guid(66bdb79edca980945815072d8aecdc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicFill-Straight.mat using Guid(66bdb79edca980945815072d8aecdc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab86e20e4a39d6b357f25b1419d13fb') in 0.078694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefaultOutline-CanvasGroup.mat
+  artifactKey: Guid(7a7d714c0736ac648a211af82dabcd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefaultOutline-CanvasGroup.mat using Guid(7a7d714c0736ac648a211af82dabcd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252657d276609392775c260d24b9e673') in 0.146735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat
+  artifactKey: Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat using Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8c6395d008d28c820b625e1d724dae') in 0.015478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicAdditive-Straight.mat
+  artifactKey: Guid(cad8f402683e18141a860042c37d6242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicAdditive-Straight.mat using Guid(cad8f402683e18141a860042c37d6242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebc066bf84592e071ad3d5f1da8baed') in 0.068728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlackAdditive.mat
+  artifactKey: Guid(617e02037d06a554cb68f28fcd73151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlackAdditive.mat using Guid(617e02037d06a554cb68f28fcd73151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d346b6f836d3a355770add513132b0') in 0.012188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackAdditive-CanvasGroupStraight.mat
+  artifactKey: Guid(590aa6fe487965f4baf0aa47db53a8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackAdditive-CanvasGroupStraight.mat using Guid(590aa6fe487965f4baf0aa47db53a8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe5314ed69d49ce22e4dde233d393db') in 0.063926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackMultiply-CanvasGroupStraight.mat
+  artifactKey: Guid(21288a3469465d54981d6351c94c03f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackMultiply-CanvasGroupStraight.mat using Guid(21288a3469465d54981d6351c94c03f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6385a70987a94dc7e85512a0bf722e55') in 0.304509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlack-Straight.mat
+  artifactKey: Guid(0ed9998e4cd669445b88721b370cbee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlack-Straight.mat using Guid(0ed9998e4cd669445b88721b370cbee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547ed881a25a25e1c75c7afed9645b2a') in 0.056218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicScreen-CanvasGroup.mat
+  artifactKey: Guid(0506213a2fbcbb24083fb750fc42d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicScreen-CanvasGroup.mat using Guid(0506213a2fbcbb24083fb750fc42d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74762194301c21e00e38176d552fa1f7') in 0.066912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.228772 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackOutline-CanvasGroupStraight.mat
+  artifactKey: Guid(80b83ed1a883abc42ad32d8b00db0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackOutline-CanvasGroupStraight.mat using Guid(80b83ed1a883abc42ad32d8b00db0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0020f47821b7f0655db8d81acc10501') in 0.044935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018587 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlackScreen-Straight.mat
+  artifactKey: Guid(1cfb46a8e0345c340b0d1c1a95fa74e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlackScreen-Straight.mat using Guid(1cfb46a8e0345c340b0d1c1a95fa74e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f47347e886b969f5a722f6bdff19d7') in 0.366802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/snowglobe/snowglobe-pma_snowglobe-pma_5.mat
+  artifactKey: Guid(30c7a85032064f0468da374e72de22b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/snowglobe/snowglobe-pma_snowglobe-pma_5.mat using Guid(30c7a85032064f0468da374e72de22b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a713034eacc33701559221f1265e03a9') in 0.392112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/whirlyblendmodes/whirlyblendmodes_Material.mat
+  artifactKey: Guid(e162c08da1abc294cb851248f51dfc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/whirlyblendmodes/whirlyblendmodes_Material.mat using Guid(e162c08da1abc294cb851248f51dfc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a181aa295c6d67825a751104cdb72ee') in 0.107868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Material.mat
+  artifactKey: Guid(1455e88fdb81ccc45bdeaedd657bad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Material.mat using Guid(1455e88fdb81ccc45bdeaedd657bad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b82e9d88440987f7745e4dd52f4d7ce') in 0.242859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.326700 seconds.
+  path: Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefault-CanvasGroup.mat
+  artifactKey: Guid(066d2ecbc1c3c0d4292b48cd9b457715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefault-CanvasGroup.mat using Guid(066d2ecbc1c3c0d4292b48cd9b457715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0caa8d2f30da996642d58ee47f175f') in 0.009870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 315.918005 seconds.
+  path: Assets/SpineAnimations/textures/New Material.mat
+  artifactKey: Guid(013f9fea5146f6048a7faf7e64316ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/textures/New Material.mat using Guid(013f9fea5146f6048a7faf7e64316ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72614f42214103c3d17a7ada3c08e49b') in 0.099937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.890718 seconds.
+  path: Assets/SpineAnimations/textures/new_material.mat
+  artifactKey: Guid(013f9fea5146f6048a7faf7e64316ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/textures/new_material.mat using Guid(013f9fea5146f6048a7faf7e64316ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff0bb2185d96b519be812e8c7c081b2') in 0.016647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 102.640423 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png
+  artifactKey: Guid(3fc714a0dc1cf6b4b959e073fff2844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png using Guid(3fc714a0dc1cf6b4b959e073fff2844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd709c5078dfdbd3531d4e1d549e73dbf') in 0.357837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021300 seconds.
+  path: Assets/Images/background_sprites/background_forest_middle.png
+  artifactKey: Guid(9c37f86a8689fe84d8efd1e2cf7cf672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background_sprites/background_forest_middle.png using Guid(9c37f86a8689fe84d8efd1e2cf7cf672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aef2318830ee62182fa39010060de08') in 0.074837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/animation_sprites/home_in_forest/bee_1.png
+  artifactKey: Guid(0cb91287cd5aa314d9c70277042c588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/animation_sprites/home_in_forest/bee_1.png using Guid(0cb91287cd5aa314d9c70277042c588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc9875c5ea3484bc549df6cbad6e1ca') in 0.449813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/animation_sprites/home_in_forest/bee_3.png
+  artifactKey: Guid(874226976e3cb46458471f7171849e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/animation_sprites/home_in_forest/bee_3.png using Guid(874226976e3cb46458471f7171849e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de0deb10204fda8d3eec8466676dca1') in 0.058647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 67.963578 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045b0da1bdb0ca24428966a120b65f0d') in 0.092684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(f5bf32aa43d3ccd4f86d983e8a46b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(f5bf32aa43d3ccd4f86d983e8a46b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef96dfa4ed51a3e3419dc3d8acd1aacf') in 0.086642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1264ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.8 MB). Loaded Objects now: 4899.
+Memory consumption went from 164.6 MB to 162.7 MB.
+Total: 4.317900 ms (FindLiveObjects: 0.382900 ms CreateObjectMapping: 0.177500 ms MarkObjects: 2.799600 ms  DeleteObjects: 0.956600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139.950593 seconds.
+  path: Assets/SpineAnimations/foxy_Material 1.mat
+  artifactKey: Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material 1.mat using Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8958b14a82a70a66e462a40fe6b817') in 0.072549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.854184 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722f46cdd8951945171c21daebc8ef31') in 0.020014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.608239 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce9a4f8050f72ff72e86d2918368b92') in 0.035060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 129.468381 seconds.
+  path: Assets/SpineAnimations/foxy.atlas.txt
+  artifactKey: Guid(4bf8c025bd116e04bbb91316d9cd8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.atlas.txt using Guid(4bf8c025bd116e04bbb91316d9cd8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3993e4fe3520d07158908d3551eccdad') in 0.001279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.107765 seconds.
+  path: Assets/SpineAnimations/foxy.json
+  artifactKey: Guid(5ebdac668b4d202438487a54795bc7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.json using Guid(5ebdac668b4d202438487a54795bc7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184211ed1a84cf521674201cf8630eef') in 0.001360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.381 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1323ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (942ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 4903.
+Memory consumption went from 164.2 MB to 162.3 MB.
+Total: 4.609800 ms (FindLiveObjects: 0.448800 ms CreateObjectMapping: 0.153500 ms MarkObjects: 2.795900 ms  DeleteObjects: 1.210600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 205.745597 seconds.
+  path: Assets/SpineAnimations/foxy_Atlas.asset
+  artifactKey: Guid(5aa8f2b2c9539fe45913736c0dc3145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Atlas.asset using Guid(5aa8f2b2c9539fe45913736c0dc3145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb16b819075871f7ebd9bd0989cb6bb5') in 0.013470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 139.521617 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823adcbb764c6134df49f30afe61188b') in 0.074702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 84.988963 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f066eb1ac5cc9d3ff0b16841e1519bd9') in 0.272135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 93.345521 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204de5a85c32a1221ae0b2d072350aee') in 0.006518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.402 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.980 seconds
+Domain Reload Profiling: 1382ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 4965.
+Memory consumption went from 164.2 MB to 162.4 MB.
+Total: 4.450200 ms (FindLiveObjects: 0.413300 ms CreateObjectMapping: 0.188300 ms MarkObjects: 2.691300 ms  DeleteObjects: 1.156300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.941812 seconds.
+  path: Assets/SpineAnimations/foxy_SkeletonData.asset
+  artifactKey: Guid(449cf883bbf318043842c51857daa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_SkeletonData.asset using Guid(449cf883bbf318043842c51857daa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7b7175defb1e9e10e90136042efde2') in 0.182253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 6.857632 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be1f95db02492011905d1c0d2734182') in 0.042997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 198.547085 seconds.
+  path: Assets/SpineAnimations/foxy 1_SkeletonData.asset
+  artifactKey: Guid(c9910f0fd0cf7c34fbf7848ff76e5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy 1_SkeletonData.asset using Guid(c9910f0fd0cf7c34fbf7848ff76e5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51158edde4ac03d5403e54548d0e8829') in 0.034773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 103.087602 seconds.
+  path: Assets/SpineAnimations/foxy 1.json
+  artifactKey: Guid(5c39ce5c8fefe2b4a906692eb8c5c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy 1.json using Guid(5c39ce5c8fefe2b4a906692eb8c5c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857c43f28f52d28c53ba76a8999cd6b5') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.378 seconds
+Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.900 seconds
+Domain Reload Profiling: 1278ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (901ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 4970.
+Memory consumption went from 164.2 MB to 162.3 MB.
+Total: 4.106100 ms (FindLiveObjects: 0.347700 ms CreateObjectMapping: 0.320400 ms MarkObjects: 2.465700 ms  DeleteObjects: 0.971600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.917463 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b081fbfdd19e223cf868134667d467a') in 0.081248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.023658 seconds.
+  path: Assets/SpineAnimations/foxy_SkeletonData.asset
+  artifactKey: Guid(449cf883bbf318043842c51857daa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_SkeletonData.asset using Guid(449cf883bbf318043842c51857daa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35900e8f161c7ea2b1a6a1799bc64085') in 0.126811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 17.204570 seconds.
+  path: Assets/SpineAnimations/foxy.atlas.txt
+  artifactKey: Guid(4bf8c025bd116e04bbb91316d9cd8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.atlas.txt using Guid(4bf8c025bd116e04bbb91316d9cd8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39928663f27a9fe8492f634303395ed') in 0.001323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.513911 seconds.
+  path: Assets/SpineAnimations/foxy.json
+  artifactKey: Guid(5ebdac668b4d202438487a54795bc7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.json using Guid(5ebdac668b4d202438487a54795bc7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f402465357f332390a1ba76e747c6c') in 0.001320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1241ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 4975.
+Memory consumption went from 164.3 MB to 162.4 MB.
+Total: 4.241200 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.114400 ms MarkObjects: 2.668400 ms  DeleteObjects: 1.145300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.916004 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2e074815eb002fc3ea7014c2d958ff') in 0.080660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 113.699420 seconds.
+  path: Assets/SpineAnimations/foxy 1_SkeletonData.asset
+  artifactKey: Guid(c9910f0fd0cf7c34fbf7848ff76e5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy 1_SkeletonData.asset using Guid(c9910f0fd0cf7c34fbf7848ff76e5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) `Assets/SpineAnimations/foxy.png` and material `foxy_Material.mat` : Problematic Texture / Material Settings found: It is recommended to disable `Alpha Is Transparency` on `Premultiply alpha` textures.
+Assuming `Premultiply alpha` texture because `Straight Alpha Texture` is disabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:357)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:258)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:237)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:245)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 357)
+
+ -> (artifact id: '8be4d87d06952721cc350442441c7e53') in 0.261171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.374 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 1279ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (905ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (1.9 MB). Loaded Objects now: 4981.
+Memory consumption went from 164.5 MB to 162.6 MB.
+Total: 4.599600 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.126100 ms MarkObjects: 2.996200 ms  DeleteObjects: 1.151100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 269.858954 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2af2b1693c0f916ac1a3933c3d0c69e') in 0.071884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.356849 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818d2d8e3ff3b0b54d2299d403880d75') in 0.095971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 448.453320 seconds.
+  path: Assets/SpineAnimations/foxy.png
+  artifactKey: Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.png using Guid(8624b25f5e0a83c4e947ede7363b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff756c98d45d1e51117fb6885e0b7de') in 0.091185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.426 seconds
+Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.005 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1005ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4348 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (1.9 MB). Loaded Objects now: 4985.
+Memory consumption went from 164.1 MB to 162.2 MB.
+Total: 4.249200 ms (FindLiveObjects: 0.351800 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.752400 ms  DeleteObjects: 1.008700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 323.189827 seconds.
+  path: Assets/SpineAnimations/foxe.asset
+  artifactKey: Guid(63cb4e28ed2118d44a4c0b1958cb211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxe.asset using Guid(63cb4e28ed2118d44a4c0b1958cb211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1eb8becb64bd580e742fdf9724d365') in 0.122110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 16.426342 seconds.
+  path: Assets/SpineAnimations/foxy.asset
+  artifactKey: Guid(63cb4e28ed2118d44a4c0b1958cb211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.asset using Guid(63cb4e28ed2118d44a4c0b1958cb211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a50b611102a31dd60c433d5679523d6') in 0.001536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 67.912269 seconds.
+  path: Assets/SpineAnimations/foxy.asset
+  artifactKey: Guid(63cb4e28ed2118d44a4c0b1958cb211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.asset using Guid(63cb4e28ed2118d44a4c0b1958cb211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4541ff93047de878bad370bdad4e649') in 0.041226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c56d78a57b249b0609e7ac38aefd47') in 0.047414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.992 seconds
+Domain Reload Profiling: 1404ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4348 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (1.8 MB). Loaded Objects now: 4989.
+Memory consumption went from 164.1 MB to 162.3 MB.
+Total: 4.585700 ms (FindLiveObjects: 0.436700 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.811000 ms  DeleteObjects: 1.160400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 144.206634 seconds.
+  path: Assets/SpineAnimations/foxy_atlas.asset
+  artifactKey: Guid(5aa8f2b2c9539fe45913736c0dc3145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_atlas.asset using Guid(5aa8f2b2c9539fe45913736c0dc3145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae044372d657a965abef94642cdc71f') in 0.013721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.091912 seconds.
+  path: Assets/SpineAnimations/foxy_atlas.asset
+  artifactKey: Guid(5aa8f2b2c9539fe45913736c0dc3145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_atlas.asset using Guid(5aa8f2b2c9539fe45913736c0dc3145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535da80fb54b12c002ec9fb13d0ef9fc') in 0.001500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1085.811387 seconds.
+  path: Assets/SpineAnimations/foxy_Material.mat
+  artifactKey: Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy_Material.mat using Guid(db290757233c72b4ab57eca45802e89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3933333cfda6faf6bc6b123857a26c') in 0.082157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 123.597302 seconds.
+  path: Assets/SpineAnimations/foxy.atlas 1.txt
+  artifactKey: Guid(8e04a3207b2520741ba6a1fb78037a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.atlas 1.txt using Guid(8e04a3207b2520741ba6a1fb78037a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89a4e4e1cfafa8c0ebe0efd1dac8bd0') in 0.001156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 698.684174 seconds.
+  path: Assets/SpineAnimations/foxy.atlas.txt
+  artifactKey: Guid(4bf8c025bd116e04bbb91316d9cd8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpineAnimations/foxy.atlas.txt using Guid(4bf8c025bd116e04bbb91316d9cd8056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69304f89404c8777bfc4060c456a5c8e') in 0.001877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
