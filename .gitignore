@@ -1,0 +1,24 @@
+# Ignore Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Aa]ssets/AssetStoreTools/
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ist_wasm/
+
+# Ignore user-specific files
+UserSettings/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build files and folders
+Build/
